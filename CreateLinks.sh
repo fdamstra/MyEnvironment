@@ -2,7 +2,7 @@
 #
 # Creates links.
 PWD=`pwd`
-for file in .bashrc .vimrc .bash .profile
+for file in .bashrc .vimrc .bash .profile .vim
 do
   if [[ -e ~/$file ]]
   then
