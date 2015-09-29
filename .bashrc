@@ -114,7 +114,8 @@ if ! shopt -oq posix; then
 fi
 
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/src/go
+export PATH=$PATH:$GOROOT/bin
 
 # Add autocompletion for git
 	source ~/.bash/git-completion.bash
